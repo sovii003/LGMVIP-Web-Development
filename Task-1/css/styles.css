@@ -1,0 +1,293 @@
+html
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+body {
+  font-family: "Montserrat-Black";
+  background-color: whitesmoke;
+}
+
+h1 {
+  font: "Montserrat-Black";
+  font-size: 5rem;
+  font-weight: bold;
+  line-height: 1.5;
+  color: white;
+}
+h2 {
+  font-family: "Montserrat Bold";
+  font-size: 5rem;
+}
+h3 {
+  font-family: "Montserrat-Bold";
+  font-weight: bold;
+  line-height: 1.5;
+}
+/* title */
+#title{
+  z-index: 9;
+  position:absolute;
+}
+.carousel-dark .carousel-caption {
+  color: black;
+  background-color: lightgray;
+  opacity: 0.65;
+}
+.title{ 
+  color: #000;
+  font-family: 'WindSong', cursive;
+  padding-right: 5rem;
+}
+#features {
+  padding: 7% 15%;
+  background: #fff;
+  position: relative;
+  z-index: 2;
+}
+
+
+.carousel-item {
+  padding: 7% 15%;
+}
+.container-fluid {
+  padding: 3% 15%;
+  margin: auto;
+}
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+.icon {
+  color: lightskyblue;
+  margin-bottom: 1rem;
+}
+.icon:hover {
+  color: deepskyblue;
+}
+/* navigation bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 4.5rem;
+  /* background-color: honeydew; */
+  opacity: 0.8;
+}
+.nav-item {
+  padding: 0 18px;
+  background-color:gray;
+  color: whitesmoke;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+nav.navbar.navbar-expand-lg{
+  position:absolute;
+  margin-left: 3rem;
+}
+.navbar-toggler{
+  background-color: gray;;
+}
+
+/* destinations */
+
+.destination-img{
+  width: 100%;
+  height: 100%;
+  object-fit:cover;
+}
+#destinations p.card-text{
+  font-size: 2rem;
+  margin-top: 1rem;;
+}
+#destinations.card-body{
+  width:100%;
+  height: auto;
+  object-fit:contain;
+}
+
+/* life at Trippy */
+#Trippy-team{
+  margin-top: 3rem;
+  background-color: #F4F9F9;
+}
+/* Container needed to position the overlay. Adjust the width as needed */
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+}
+
+/* Make the image to responsive */
+.team{
+  width: 15rem;
+  height: auto;
+  border-radius: 100%;
+}
+ 
+
+/* The overlay effect (full height and width) - lays on top of the container and over the image */
+.overlay {
+  
+  border-radius: 100%;
+  position: relative;
+  align-content: center;
+  opacity: 0;
+  background-color:transparent;
+  
+}
+
+/* When you mouse over the container, fade in the overlay icon*/
+.container:hover .overlay {
+  color:snow;
+  opacity: 1;
+  
+}
+
+/* The icon inside the overlay is positioned in the middle vertically and horizontally */
+.icon1 {
+  color: white;
+  font-size: 3rem;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  text-decoration: none;
+  
+}
+.fa-twitter, .fa-linkedin{
+  margin-bottom: 14rem;
+  color: whitesmoke
+}
+/* When you move the mouse over the icon, change color */
+.fa-twitter:hover ,.fa-linkedin:hover{
+  color: skyblue;
+}
+
+/* pricing */
+#pricing{
+  background-color: #CCF2F4;
+  margin-top: 5rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  text-align: center;
+}
+.pricing-column {
+  padding: 3% 2%;
+}
+.card-text > .card-body {
+  min-width: fit-content;
+}
+/* testimonials */
+.testimonial-image {
+  width: 10rem;
+  border-radius: 10rem;
+}
+#testimonials .carousel-control-prev .carousel-control-next{
+    background-color: lightgray;
+}
+#testimonials {
+  font-size: 1rem;
+  text-align: center;
+  background-color: #fff;
+  color: gray;
+}
+
+/* features */
+#feature-head{
+  font-size:5.5rem;
+}
+#feature-body{
+  font-size: 2rem;
+  padding-right: 2rem;
+}
+#feature-image{
+  height: 20rem;
+  width: 20rem;
+}
+/* vlog-section */
+#vlog iframe{
+  width: 100%;
+  height: 50rem;
+  object-fit: cover;
+}
+/* pre-footer */
+#pre-footer {
+  margin-top: 0.2rem;
+  text-align: center;
+  background-color: whitesmoke;
+}
+/* Set the size of the div element that contains the map */
+#map {
+  height: 600px;
+  /* The height is 400 pixels */
+  width: 50%;
+  /* The width is the width of the web page */
+}
+form{
+  text-align: left;
+}
+label{
+  font-size: 1.5rem;
+}
+.send{
+  background-color: lightgoldenrodyellow;
+}
+#footer{
+  text-align: center;
+  background-color: lightgray;
+}
+.gray-section{
+  height:1rem;
+  background-color: white;
+}
+.copyright{
+  text-align: center;
+  background-color: lightgray;
+}
+/* title background carousel */
+#title-bg img{
+  background-size: contain;
+  height: 50rem;
+  object-fit: cover;
+  overflow: hidden;
+  width:50rem;
+}
+#title-bg .carousel-item{
+  padding: 0;
+}
+#title-bg button{
+  width: 6rem;
+}
+#title-bg .carousel-indicators button{
+  height: 0.2rem;
+}
+
+/* newsletter */
+#newsletter{
+  padding-top: 12rem;
+  padding-bottom: 12rem;
+  background-image: url(../images/newsletter-bg.jpg);
+}
+#newsletter button{
+  border-radius: 20%;
+  margin-bottom: 1.25rem;
+}
+#newsletter .newsletter-mail{
+  height: 3.5rem;
+  width: 25rem;
+  font-size: 2.5rem;
+}
+.signup-call{
+  color: white;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
